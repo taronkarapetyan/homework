@@ -1,0 +1,24 @@
+@import 'navigation.css';
+@import 'content.css';
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #365899;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.text-bold {
+    font-weight: bold;
+}

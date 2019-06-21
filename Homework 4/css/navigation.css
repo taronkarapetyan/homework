@@ -1,0 +1,54 @@
+#navigation {
+    background-color: #3b5998;
+    justify-content: center;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#navigation .container {
+    justify-content: space-between;
+}
+
+#navigation .container > div div {
+    margin-right: 10px;
+}
+
+#navigation p {
+    color: white;
+    margin: 0;
+    font-size: 12px;
+}
+
+#navigation a {
+    color: #9cb4d8;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    text-decoration: underline;
+}
+
+#navigation input {
+    margin: 3px 0;
+    border-color: #1d2a5b;
+    border-width: 1px;
+    width: 150px;
+}
+
+#navigation button {
+    align-self: center;
+    background-color: #4267b2;
+    border-color: #29487d;
+    border-style: solid;
+    color: white;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+#navigation button:hover {
+    background-color: #3b5998;
+}
